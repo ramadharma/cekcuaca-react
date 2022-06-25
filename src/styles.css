@@ -58,6 +58,7 @@
 
 .kota {
     font-weight: lighter;
+    font-size: 32px;
 }
 
 .bottom {
@@ -91,6 +92,7 @@ p {
     margin-top: 8em;
     display: flex;
     justify-content: center;
+    margin-left: 8%;
 }
 
 .input {
@@ -105,4 +107,5 @@ p {
     border: none;
     background-color: aliceblue;
     padding: 1em;
+    color: #333333;
 }
