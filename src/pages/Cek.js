@@ -36,7 +36,7 @@ export default function Cek() {
   const C = k - 273.15;
 
   return (
-    <div className="container">
+    <div className="wrapped">
 
       {/* SEARCH start */}
       <div className="search">
@@ -48,15 +48,15 @@ export default function Cek() {
       {/* SEARCH end */}
 
       {/* BODY start */}
-      <div className="top">
-        <div className="w-full flex flex-wrap justify-center">
-          <div className="md:w-1/2">
+      <div className="top flex justify-center">
+        <div className="">
+          <div className="mb-8">
             <h1 className="text-lg suhu">
               {C.toFixed(0)}
               °C
             </h1>
           </div>
-          <div className="md:w-1/2">
+          <div className="">
             <h3 className="text-lg kota">
               {city}
               {' '}
